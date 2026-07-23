@@ -11,13 +11,7 @@
           :rep-provenance "https://www.seace.gob.pe/"
           :corporate-number-owner-authority "SUNAT"
           :corporate-number-legal-basis "RUC"
-          :corporate-number-provenance "https://www.sunat.gob.pe/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "COL" {:name "Colombia" :owner-authority "SECOP II" :legal-basis "Ley 80" :national-spec "SECOP II" :provenance "https://www.colombiacompra.gov.co/"
-          :required-evidence ["NIT record" "SECOP II registration" "RUES extract" "Authorized-representative record"]}
-   "CHL" {:name "Chile" :owner-authority "ChileCompra" :legal-basis "Ley de Compras" :national-spec "Mercado Público" :provenance "https://www.mercadopublico.cl/"
-          :required-evidence ["RUT record" "ChileCompra registration" "SII extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.sunat.gob.pe/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
